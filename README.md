@@ -181,9 +181,3 @@ academic-figures-drawer/
 - Use vectors for model computation. / 模型计算过程使用矢量图形表达。
 - Preserve scientific semantics; never invent missing facts. / 保留科学语义，不虚构缺失事实。
 - Optimize for two-column readability, not editor zoom. / 以论文双栏尺寸的可读性为最终标准，而不是编辑器缩放效果。
-
-## License notices / 许可证说明
-
-This package contains utility portions with their required MIT license notices in `references/THIRD_PARTY_NOTICES.md`.
-
-本项目包含少量带有 MIT 许可证的工具代码，其必要的许可证声明位于 `references/THIRD_PARTY_NOTICES.md`。
