@@ -1,0 +1,4 @@
+interface:
+  display_name: "Academic Figures Drawer"
+  short_description: "Create editable camera-ready academic figures"
+  default_prompt: "Use $academic-figures-drawer to turn this paper or method description into a clear, camera-ready editable figure."
