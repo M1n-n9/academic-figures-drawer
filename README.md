@@ -134,6 +134,8 @@ python <skill-dir>\scripts\validate_drawio.py <figure>.drawio
 
 Then inspect a canvas-only screenshot at the intended paper width. Confirm that panel titles are dominant, the contribution block is not smaller than standard helper modules, and the smallest required label remains readable. Fix overflow, crossings, orphan labels, uneven spacing, and excessive text before reducing font size.
 
+For the complete reusable review contract—including compact-canvas rules, rendered LaTeX checks, explicit arrow source/target semantics, transparent real-object asset boundaries, and the three-cycle export review—see [`references/general-quality-contract.md`](references/general-quality-contract.md).
+
 随后在论文目标尺寸下检查只包含画布的截图。确认面板标题最醒目，原创模块的面积不小于普通辅助模块，最小的必要文字仍然可读。优先修复溢出、连线穿模、孤立标签、间距不均和文字冗余，不要先通过缩小字号解决拥挤。
 
 For a local browser preview:
@@ -181,3 +183,6 @@ academic-figures-drawer/
 - Use vectors for model computation. / 模型计算过程使用矢量图形表达。
 - Preserve scientific semantics; never invent missing facts. / 保留科学语义，不虚构缺失事实。
 - Optimize for two-column readability, not editor zoom. / 以论文双栏尺寸的可读性为最终标准，而不是编辑器缩放效果。
+- Fit the canvas to the composition and remove redundant whitespace. / 让画布贴合实际构图，删除冗余留白。
+- Make every connector and symbol semantically explicit. / 确保每条连线和每个符号的语义都明确。
+- Review exported artifacts iteratively, not only the editable canvas. / 反复检查导出物，而不只检查可编辑画布。

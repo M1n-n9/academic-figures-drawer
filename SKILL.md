@@ -15,6 +15,7 @@ Turn a paper or description into a figure that is easy to decode at two-column s
 - Keep real-object imagery (sensor, device, body part, waveform, application scene) in input/data/context regions only. Represent model computation with editable vector primitives.
 - Distinguish prior/standard components from the paper contribution with one restrained accent color and an explicit legend.
 - Preserve the paper's terminology, tensor symbols, stage order, and training/inference distinction. Never invent results, dimensions, or module names.
+- Apply the reusable quality rules in `references/general-quality-contract.md`; they encode paper-scale readability, compact composition, explicit connector semantics, rendered LaTeX, real-object asset boundaries, and export-driven review.
 
 ## Fast decision tree
 
@@ -82,6 +83,8 @@ Read `references/xml-authoring.md` before hand-authoring XML. Use explicit `mxGe
 Annotate dimensions only where they answer a reader question, using a compact second line such as `X ∈ R^(B×T×D)` or `(B, C, H, W) → (B, T, D)`. For attention, show Q/K/V and arrow direction; for feature interaction, show the actual axes or branches being mixed. Add a legend mapping every used semantic color to a category and mark the contribution explicitly (e.g., `Proposed / trainable`).
 
 ### 6. Preflight and visual verification
+
+Use `references/general-quality-contract.md` as the review contract. In particular, verify that the canvas is fitted to the composition, every arrow has an explicit semantic source and target, and formulas are rendered in the exported artifacts rather than shown as source delimiters.
 
 Before any preview, run:
 
